@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Nomes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Nomes</h1>
+        <label for="nomeInput">Digite um nome:</label>
+        <input type="text" id="nomeInput">
+        <button onclick="adicionarNome()">Adicionar</button>
+        <button onclick="sortearNome()">Sortear Nome</button>
+        <button onclick="limparNomes()">Limpar </button>
+
+        <h2>Nomes Adicionados:</h2>
+        <ul id="listaNomes"></ul>
+        
+        <h2>Resultado do Sorteio:</h2>
+        <p id="resultado"></p>
+
+        <br>
+    <div class="voltar">
+        <a href="/escolha do sorteio/index.html" ><button onclick="voltar">Voltar</button></a>
+    </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
